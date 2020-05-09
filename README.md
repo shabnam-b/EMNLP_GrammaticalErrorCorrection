@@ -1,7 +1,7 @@
 This page contains scripts for the final project of the EMNLP class - Spring 2020
 
 
-The data directory contains a small sample of the data in the required format. In the model directory, you can find the scripts for each model separately. In what follows, we will explain how to run each model.
+The [data](data/) directory contains a small sample of the data in the required format. In the [models](models/) directory, you can find the scripts for each model separately. In what follows, we will explain how to run each model.
 
 
 ## LM
