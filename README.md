@@ -6,7 +6,7 @@ The [data](data/) directory contains a small sample of the data in the required 
 
 ## LM
 
-This model uses the Hugging Face pre-trained model bert-base-cased. No training data is needed for this model. You need to use a jsonl file as the input. The only required arguments for this script are the path to test data and path to the directory in which you would like to save the results.
+This model uses the Hugging Face pre-trained model bert-base-cased. No training data is needed for this model. You need to use the jsonl format for this script. The only required arguments are the path to test data (jsonl) and the path to the directory in which you would like to save the results.
 You can simply run the code with the following command:
 
 ```
