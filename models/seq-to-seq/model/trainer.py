@@ -1,7 +1,3 @@
-"""
-A trainer class to handle training and testing of models.
-"""
-
 import torch
 from torch.autograd import Variable
 
