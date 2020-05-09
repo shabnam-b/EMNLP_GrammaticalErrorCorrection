@@ -1,13 +1,5 @@
-"""
-Pytorch implementation of basic sequence to Sequence models.
-"""
-
 import torch
 import torch.nn as nn
-from torch.autograd import Variable
-import math
-import torch.nn.functional as F
-import numpy as np
 
 from utils import constant
 
