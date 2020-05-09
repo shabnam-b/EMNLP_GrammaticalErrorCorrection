@@ -3,19 +3,14 @@ from torch import nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 import numpy as np
-import random
 
 from utils import constant, text_utils, torch_utils
-from model.modules import SoftDotAttention, MLPAttention, LSTMAttention, LinearAttention, \
-        DeepAttention
+from model.modules import MLPAttention, LSTMAttention
+
 from model.beam import Beam
 from utils.torch_utils import set_cuda
 
 class Seq2SeqWithCopyModel(nn.Module):
-    """
-    A seq2seq model with a simple LSTM as encoder, and a combination of an attentional LSTM decoder
-    and a copy network for decoding.
-    """
     def __init__(self, opt, emb_matrix=None):
         super().__init__()
         self.vocab_size = opt['vocab_size']
