@@ -17,3 +17,7 @@ python bert-lm.py -t path_to_jsonl_test_file -o path_to_results_directory
 This model requires installation of the Natural Language Toolkit (NLTK(. Installation instructions can be found here: https://www.nltk.org/install.html
 
 You will also need to download train.json and dev.json (found in models/smt), since those are the files used in this experimentation. Once you have the files downloaded and NLTK installed, you can simply run main.py. No arguments are required. For additional experiments other json files could be used.
+
+## Sequence-to-sequence
+
+Please refer to the readme placed in the [model directory](models/seq-to-seq) for the detailed instructions.
