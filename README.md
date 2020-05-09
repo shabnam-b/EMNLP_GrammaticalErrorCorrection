@@ -12,7 +12,7 @@ You can simply run the code with the following command:
 python bert-lm.py -t path_to_jsonl_test_file -o path_to_results_directory
 ```
 
-## STM
+## SMT
 
 This model requires installation of the Natural Language Toolkit (NLTK(. Installation instructions can be found here: https://www.nltk.org/install.html
 
