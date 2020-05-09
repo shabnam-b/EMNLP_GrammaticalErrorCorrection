@@ -25,7 +25,7 @@ Download the clean data (wi+locness dataset) under `dataset/` directory. You wil
 
 The model is initialized with Common Crawl GloVe word vectors. First, you have to download these vectors by running:
 ```
-sh download.sh; ./download.sh
+sh download.sh
 ```
 
 Preparing vocab, considering that `$GEC` is a directory containing the GEC splits:
